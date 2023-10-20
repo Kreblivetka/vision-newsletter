@@ -1,0 +1,37 @@
+.glasses-icon {
+  position: relative;
+  width: 118px;
+  height: 40px;
+}
+.links {
+  text-decoration: none;
+  position: relative;
+  line-height: 26px;
+}
+.links:visited {
+  color: #6a707b;
+}
+.links:hover {
+  color: #4066a5;
+  text-decoration: underline;
+}
+
+.menu,
+.top-bar {
+  font-family: "Arial", sans-serif;
+  color: #6a707b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.top-bar {
+  position: absolute;
+  top: 90px;
+  left: 80px;
+  align-items: flex-end;
+  padding: 10px;
+  gap: 113px;
+}
+
