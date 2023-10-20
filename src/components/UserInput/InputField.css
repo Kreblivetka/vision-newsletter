@@ -1,0 +1,71 @@
+.inputBase {
+    position: absolute;
+    top: 539px;
+    left: 100px;
+    width: 480px;
+    height: 70px;
+    background-color: #ffffff;
+    border: 1px solid #e2e3e4;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inputBase:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid #4066a5;
+  }
+  .errorInputBase {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid #b80808;
+  }
+  .line {
+    background-color: #4066a5;
+    height: 69px;
+    width: 4px;
+  }
+  .errorLine {
+    background-color: #b80808;
+  }
+  .arrow {
+    width: 54px;
+    height: 54px;
+    box-shadow: 0px;
+    position: center;
+  }
+  .button {
+    background-color: transparent;
+    border-color: transparent;
+    height: 54px;
+    position: absolute;
+    top: 8px;
+    left: 414px;
+    width: 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .placeholder {
+    text-align: left;
+    vertical-align: center;
+    line-height: 24px;
+    border-style: hidden;
+    outline: none;
+    width: 310px;
+    height: 65px;
+    position: absolute;
+    left: 40px;
+    font-size: 16px;
+    color: #6a707b;
+  }
+  .err {
+    font-size: 12px;
+    text-align: left;
+    vertical-align: text-top;
+    color: #b80808;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+  }
+  
